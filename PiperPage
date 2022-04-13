@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--Piper's page-->
+<html>
+    <head>
+        <!--The <head> element is a container for metadata and is placed between the <html> tag and the <body> tag-->
+            <title>A SAMPLE HTML PAGE OF PIPER </title>
+            <!--The <style> element is used to define style information for a single HTML page-->
+            <style>
+                h1 {color:pink;}
+            </style>
+    </head>
+    <body>
+        <h1>PIPER's PAGE</h1>
+        <h2>I.About Me: </h2>
+        <p> My name is Piper </p>
+        <style>
+            .myDiv {
+            border: 1px outset black;
+            background-color: FloralWhite;
+            text-align: center;
+        }
+        </style>
+        <!--A <div> section in a document that is styled with CSS:-->
+        <div class="myDiv">
+            <p> I am a senior Applied Computing student at UW Bothell.
+            My goal is becoming an UX designer or UX researcher with Computer Science background.
+            I love connecting other people in the UX design industry and use my ability to contribute our society. </p>
+        </div>
+        <h2>II.My Buddy:</h2>
+        <!--A <span element which is used to color a part of a text-->
+        <p> I have a cute little friend at home. His name is <span style="color: palevioletred"> <b>Peanut</b></span> "</p>
+    </body>
+</html>
