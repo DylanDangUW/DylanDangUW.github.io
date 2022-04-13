@@ -11,7 +11,7 @@
 </head>
 <body>
 <h1>PIPER's PAGE</h1>
-<h2>I.Something about me: </h2>
+<h2>I.About me: </h2>
 <p> My name is Piper </p>
 <style>
     .myDiv {
@@ -25,6 +25,6 @@
     My goal is becoming an UX designer or UX researcher with Computer Science background.
     I love connecting other people in the UX design industry and use my ability to contribute our society. </p>
     </div>
-<h2>II. About </h2>
+<h2>II.</h2>
 </body>
 </html>
