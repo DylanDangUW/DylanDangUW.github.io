@@ -1,7 +1,8 @@
+/*Mark's comment: You don't need to nest this in a style tag so delete lines 1 and 77. The web browser will read the .html page line by line, get to the link tag and then include this file, continuing reading line by line, so including a style tag is sort of like putting a tag within a tag (style within link), which doesn't work.*/
 * {
   box-sizing: border-box;
 }
-
+/* main page */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,7 +14,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-
+/* Nav Bar */
   .nav {
     overflow: hidden;
     background-color: #333;
@@ -38,42 +39,6 @@ body {
     color: white;
   } 
 
-.header {
-  background-color: #121212;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-.footer {
-  background-color: #121212;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
 /* Bootstrap */
 .container {
   position: relative;
@@ -84,7 +49,7 @@ body {
 .row {
   padding:2rem 1rem;
 margin-bottom:2rem;
-/* background-color:rgb(53, 63, 211); */
+background-color:rgb(108, 118, 255); /* adds color */
 border-radius:.3rem
 }
 .col-sm-6 {
@@ -92,4 +57,5 @@ border-radius:.3rem
 margin-bottom:2rem;
 background-color:rgb(255, 255, 255);opacity:0.5;
 border-radius:.3rem
+}
 }
