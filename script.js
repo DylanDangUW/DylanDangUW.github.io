@@ -11,9 +11,9 @@ function roll(){
         die.classList.add("shake");
     });
     setTimeout(function(){
-        dice.forEach(function(die{
+        dice.forEach(function(die){
             die.classList.remove("shake");
-        }));
+        });
         let dieOneValue = Math.floor(Math.random()*6);
         let dieTwoValue = Math.floor(Math.random()*6);
         let dieThreeValue = Math.floor(Math.random()*6);
