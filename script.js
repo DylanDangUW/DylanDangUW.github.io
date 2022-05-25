@@ -21,7 +21,7 @@ function roll(){
         //let dieFiveValue = Math.floor(Math.random()*6);
         console.log(dieOneValue,dieTwoValue);
         //console.log(dieOneValue,dieTwoValue,dieThreeValue,dieFourValue,dieFiveValue);
-        document.querySelector("#die-1").setAttribute("src", images[diceOneValue]);
+        //document.querySelector("#die-1").setAttribute("src", images[diceOneValue]);
         document.querySelector("#die-2").setAttribute("src", images[diceTwoValue]);
         //document.querySelector("#die-3").setAttribute("src", images[diceThreeValue]);
        // document.querySelector("#die-4").setAttribute("src", images[diceFourValue]);
