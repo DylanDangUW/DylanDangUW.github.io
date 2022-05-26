@@ -15,7 +15,7 @@ body{
 /* Nav Bar */
 .nav {
     overflow: hidden;
-    background-color: #e92e3d
+    background-color: #575ce5
   }
   
   .nav a {
@@ -33,8 +33,8 @@ body{
   }
   
     .nav a.active { 
-    background-color: #ff6e6a;
-    color: white;
+    background-color: #878af5;
+    color: rgb(255, 255, 255);
   } 
 .container{
     background-color: #ffffff;
@@ -52,14 +52,14 @@ body{
 .containertext {
     display: flex;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 .containertext > span{
     animation: shake 0.5s infinite;
     font-size: 4rem;
-    color: #e92e3d;
+    color: #575ce5;
 }
 .stats{
     text-align: right;
