@@ -16,10 +16,12 @@ function roll(){
         });
         let dieOneValue = Math.floor(Math.random()*6);
         let dieTwoValue = Math.floor(Math.random()*6);
-        console.log(dieOneValue,dieTwoValue);
+        let dieThreeValue = Math.floor(Math.random()*6);
+        console.log(dieOneValue,dieTwoValue,dieThreeValue);
         document.querySelector("#die-1").setAttribute("src", images[dieOneValue]);
         document.querySelector("#die-2").setAttribute("src", images[dieTwoValue]);
-        document.querySelector("#total").innerHTML = "Your roll is " + ( (dieOneValue +1) + (dieTwoValue + 1) );
+        document.querySelector("#die-2").setAttribute("src", images[dieThreeValue]);
+        document.querySelector("#total").innerHTML = "Your roll is " + ( (dieOneValue +1) + (dieTwoValue + 1) + (dieThreeValue + 1) );
     },
     1000
     );
