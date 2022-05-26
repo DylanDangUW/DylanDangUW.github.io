@@ -12,6 +12,30 @@ body{
         #f9fbfc 50%
     ) fixed;
 }
+/* Nav Bar */
+.nav {
+    overflow: hidden;
+    background-color: #e92e3d
+  }
+  
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+    .nav a.active { 
+    background-color: #ff6e6a;
+    color: white;
+  } 
 .container{
     background-color: #ffffff;
     width: 400px;
@@ -24,6 +48,18 @@ body{
     border-radius: 10px;
     -webkit-perspective: 300px;
     perspective: 300px;
+}
+.containertext {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.containertext > span{
+    animation: shake 0.5s infinite;
+    font-size: 4rem;
+    color: #e92e3d;
 }
 .stats{
     text-align: right;
