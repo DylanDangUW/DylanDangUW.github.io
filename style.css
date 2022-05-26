@@ -60,7 +60,7 @@ body{
 .containertext > span{
     animation: shake 0.5s infinite;
     font-size: 4rem;
-    color: #000000;
+    color: #e92e3d;
 }
 .dice-wrapper{
     width: 90%;
