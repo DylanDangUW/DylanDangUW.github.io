@@ -26,6 +26,13 @@ body{
     align-items: center;
     font-family: "Poppins",sans-serif;
 }
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 .container > span{
     animation: shake 0.5s infinite;
     font-size: 4rem;
