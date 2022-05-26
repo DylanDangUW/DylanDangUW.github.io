@@ -14,7 +14,7 @@ body{
 /* Nav Bar */
 .nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #e92e3d
   }
   
   .nav a {
@@ -32,7 +32,7 @@ body{
   }
   
     .nav a.active { 
-    background-color: #4c77af;
+    background-color: #ff6e6a;
     color: white;
   } 
 .container{
