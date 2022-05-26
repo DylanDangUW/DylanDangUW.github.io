@@ -59,7 +59,7 @@ body{
 .containertext > span{
     animation: shake 0.5s infinite;
     font-size: 4rem;
-    color: #575ce5;
+    color: #a6a9fc;
 }
 .stats{
     text-align: right;
