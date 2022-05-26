@@ -26,6 +26,11 @@ body{
     align-items: center;
     font-family: "Poppins",sans-serif;
 }
+.container > span{
+    animation: shake 0.5s infinite;
+    font-size: 4rem;
+    color: #000000;
+}
 .dice-wrapper{
     width: 90%;
     display: flex;
