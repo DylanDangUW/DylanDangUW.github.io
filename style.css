@@ -11,6 +11,30 @@ body{
     ) 0 100% no-repeat;
     background-size: 100% 50%;
 }
+/* Nav Bar */
+.nav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+    .nav a.active { 
+    background-color: #4c77af;
+    color: white;
+  } 
 .container{
     width: 400px;
     padding: 50px;
