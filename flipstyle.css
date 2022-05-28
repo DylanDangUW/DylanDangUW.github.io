@@ -44,6 +44,7 @@ h1 {
   font-size: 6rem;
   --duration: 1s;
   --stager: 10ms;
+  color: #e92e3d;
 }
 h1 p {
   display: inline-block; 
