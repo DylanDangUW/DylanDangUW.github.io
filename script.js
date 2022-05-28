@@ -1,4 +1,4 @@
-let images = ["pictures\dice-01.svg","pictures\dice-02.svg","pictures\dice-03.svg","pictures\dice-04.svg","pictures\dice-05.svg","pictures\dice-06.svg"];
+let images = ["pictures\dice-01.svg","pictures\dice-02.svg","pictures\dice-03.svg","dice-04.svg","dice-05.svg","dice-06.svg"];
 let dice = document.querySelectorAll("img");
 
 function roll(){
