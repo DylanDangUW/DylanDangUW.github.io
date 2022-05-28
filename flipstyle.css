@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -36,6 +37,39 @@ body{
     background-color: #878af5;
     color: rgb(255, 255, 255);
   } 
+
+h1 {
+  display: inline-block;
+  font-family: 'Noto Serif', serif;
+  font-size: 6rem;
+  --duration: 1s;
+  --stager: 10ms;
+}
+h1 p {
+  display: inline-block; 
+  animation-fill-mode: forwards;
+}
+
+h1.flip-in p {
+  animation: flipin var(--duration) ease-in calc(var(--i) * var(--stager)) 1;
+}
+
+h1.flip-out p {
+  animation: flipout var(--duration) ease-in calc(var(--j) * var(--stager)) 1;
+}
+
+
+@keyframes flipout {
+  100% {
+    transform: rotateX(360deg);
+  }  
+}
+
+@keyframes flipin {
+  100% {
+    transform: rotateX(360deg);
+  }  
+}
 .container{
     background-color: #ffffff;
     width: 400px;
@@ -48,18 +82,6 @@ body{
     border-radius: 10px;
     -webkit-perspective: 300px;
     perspective: 300px;
-}
-.containertext {
-    display: flex;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-.containertext > span{
-    animation: shake 0.5s infinite;
-    font-size: 4rem;
-    color: #a6a9fc;
 }
 .stats{
     text-align: right;
