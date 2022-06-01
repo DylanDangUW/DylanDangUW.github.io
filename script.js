@@ -17,9 +17,9 @@ function roll(){
         console.log(dieOneValue,dieTwoValue,dieThreeValue,dieFourValue,dieFiveValue);
         document.querySelector("#die-1").setAttribute("src", images[dieOneValue]);
         document.querySelector("#die-2").setAttribute("src", images[dieTwoValue]);
-        document.querySelector("#die-2").setAttribute("src", images[dieThreeValue]);
-        document.querySelector("#die-1").setAttribute("src", images[dieFourValue]);
-        document.querySelector("#die-1").setAttribute("src", images[dieFiveValue]);
+        document.querySelector("#die-3").setAttribute("src", images[dieThreeValue]);
+        document.querySelector("#die-4").setAttribute("src", images[dieFourValue]);
+        document.querySelector("#die-5").setAttribute("src", images[dieFiveValue]);
     },
     1000
     );
