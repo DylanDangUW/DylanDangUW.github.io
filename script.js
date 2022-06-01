@@ -12,10 +12,14 @@ function roll(){
         let dieOneValue = Math.floor(Math.random()*6);
         let dieTwoValue = Math.floor(Math.random()*6);
         let dieThreeValue = Math.floor(Math.random()*6);
-        console.log(dieOneValue,dieTwoValue,dieThreeValue);
+        let dieFourValue = Math.floor(Math.random()*6);
+        let dieFiveValue = Math.floor(Math.random()*6);
+        console.log(dieOneValue,dieTwoValue,dieThreeValue,dieFourValue,dieFiveValue);
         document.querySelector("#die-1").setAttribute("src", images[dieOneValue]);
         document.querySelector("#die-2").setAttribute("src", images[dieTwoValue]);
         document.querySelector("#die-2").setAttribute("src", images[dieThreeValue]);
+        document.querySelector("#die-1").setAttribute("src", images[dieFourValue]);
+        document.querySelector("#die-1").setAttribute("src", images[dieFiveValue]);
     },
     1000
     );
