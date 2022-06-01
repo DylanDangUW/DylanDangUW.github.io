@@ -63,7 +63,7 @@ body{
     color: #e92e3d;
 }
 .dice-wrapper{
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
 }
